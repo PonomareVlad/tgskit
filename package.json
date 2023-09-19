@@ -5,6 +5,7 @@
   "main": "dist/index.es.js",
   "author": "Jawish Hameed <jawish@lottiefiles.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "clean": "shx rm -rf dist",
     "build": "yarn clean && yarn build:lib && yarn build:docs",
